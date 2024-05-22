@@ -1,3 +1,6 @@
 {
-  "singleQuote": true
+  "singleQuote": true,
+  "endOfLine": "lf",
+  "proseWrap": "always",
+  "printWidth": 120
 }
