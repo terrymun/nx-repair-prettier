@@ -4,11 +4,12 @@
   "projectType": "library",
   "sourceRoot": "libs/shared/product/state/src",
   "prefix": "nx-example",
-  "targets": {},
+  "tags": ["scope:shared", "type:state"],
   "generators": {
     "@nx/angular:component": {
       "styleext": "scss"
     }
   },
-  "tags": ["scope:shared", "type:state"]
+  "// targets": "to see all targets run: nx show project shared-product-state --web",
+  "targets": {}
 }

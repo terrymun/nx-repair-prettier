@@ -3,6 +3,8 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/cart/src",
   "projectType": "application",
+  "tags": ["type:app", "scope:cart"],
+  "implicitDependencies": ["shared-assets", "shared-styles"],
   "generators": {},
   "targets": {
     "build": {
@@ -95,7 +97,5 @@
         ]
       }
     }
-  },
-  "tags": ["type:app", "scope:cart"],
-  "implicitDependencies": ["shared-assets", "shared-styles"]
+  }
 }

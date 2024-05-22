@@ -3,7 +3,8 @@
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/shared/jsxify/src",
   "projectType": "library",
+  "tags": ["scope:shared", "type:types"],
   "generators": {},
-  "targets": {},
-  "tags": ["scope:shared", "type:types"]
+  "// targets": "to see all targets run: nx show project shared-jsxify --web",
+  "targets": {}
 }

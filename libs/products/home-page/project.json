@@ -4,11 +4,12 @@
   "projectType": "library",
   "sourceRoot": "libs/products/home-page/src",
   "prefix": "nx-example",
-  "targets": {},
+  "tags": ["scope:products", "type:feature"],
   "generators": {
     "@nx/angular:component": {
       "styleext": "scss"
     }
   },
-  "tags": ["scope:products", "type:feature"]
+  "// targets": "to see all targets run: nx show project products-home-page --web",
+  "targets": {}
 }

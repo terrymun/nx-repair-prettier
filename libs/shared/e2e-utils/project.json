@@ -3,7 +3,8 @@
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/shared/e2e-utils/src",
   "projectType": "library",
+  "tags": ["scope:shared", "type:e2e-utils"],
   "generators": {},
-  "targets": {},
-  "tags": ["scope:shared", "type:e2e-utils"]
+  "// targets": "to see all targets run: nx show project shared-e2e-utils --web",
+  "targets": {}
 }
